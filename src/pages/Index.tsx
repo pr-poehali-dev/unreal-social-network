@@ -7,9 +7,11 @@ import { Progress } from '@/components/ui/progress';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
+import AuthDialog from '@/components/AuthDialog';
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('profile');
+  const [showAuthDialog, setShowAuthDialog] = useState(true);
 
   const mockUser = {
     name: 'CyberRunner_2077',
@@ -64,6 +66,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-cyber-darker cyber-grid">
+      {showAuthDialog && <AuthDialog onClose={() => setShowAuthDialog(false)} />}
+      
       <div className="absolute inset-0 bg-gradient-to-b from-cyber-cyan/5 via-transparent to-cyber-purple/5 pointer-events-none" />
       
       <div className="relative z-10 container mx-auto p-4 md:p-6">
