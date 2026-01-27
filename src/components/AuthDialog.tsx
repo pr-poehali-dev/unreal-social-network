@@ -34,7 +34,7 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
                   <img 
                     src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/4af3288b-7d0f-4a6d-930b-c764b3fdadbc.jpeg" 
                     alt="Swarm Logo" 
-                    className="h-10"
+                    className="h-10 mix-blend-screen"
                   />
                   <span className="text-3xl font-bold text-white tracking-wider">SWARM</span>
                 </div>
@@ -94,7 +94,7 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
                   <img 
                     src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/4af3288b-7d0f-4a6d-930b-c764b3fdadbc.jpeg" 
                     alt="Swarm Logo" 
-                    className="h-10"
+                    className="h-10 mix-blend-screen"
                   />
                   <span className="text-3xl font-bold text-white tracking-wider">SWARM</span>
                 </div>
