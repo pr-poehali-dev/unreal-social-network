@@ -30,13 +30,12 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
             
             <Card className="bg-[#2a2d35]/95 backdrop-blur-md border-none shadow-2xl">
               <CardHeader className="pb-4">
-                <div className="flex items-center justify-center gap-3 mb-6">
+                <div className="flex items-center justify-center mb-6">
                   <img 
-                    src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/4af3288b-7d0f-4a6d-930b-c764b3fdadbc.jpeg" 
+                    src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/8e7279f4-0f61-4b61-bc5a-53f2cebcb730.jpeg" 
                     alt="Swarm Logo" 
-                    className="h-10 mix-blend-screen"
+                    className="h-12"
                   />
-                  <span className="text-3xl font-bold text-white tracking-wider">SWARM</span>
                 </div>
               </CardHeader>
               
@@ -90,13 +89,12 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
             
             <Card className="bg-[#2a2d35]/95 backdrop-blur-md border-none shadow-2xl">
               <CardHeader className="pb-4">
-                <div className="flex items-center justify-center gap-3 mb-4">
+                <div className="flex items-center justify-center mb-4">
                   <img 
-                    src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/4af3288b-7d0f-4a6d-930b-c764b3fdadbc.jpeg" 
+                    src="https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/8e7279f4-0f61-4b61-bc5a-53f2cebcb730.jpeg" 
                     alt="Swarm Logo" 
-                    className="h-10 mix-blend-screen"
+                    className="h-12"
                   />
-                  <span className="text-3xl font-bold text-white tracking-wider">SWARM</span>
                 </div>
               </CardHeader>
               
