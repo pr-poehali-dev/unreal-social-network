@@ -9,7 +9,14 @@ interface AuthDialogProps {
 const AuthDialog = ({ onClose }: AuthDialogProps) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-600" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: 'url(https://cdn.poehali.dev/projects/91340629-f7a0-4f78-a1c9-6b90a3f7201a/bucket/7843aeb2-a8b8-4efa-b7e5-1fe89b5f0be1.png)',
+        }}
+      />
+      
+      <div className="absolute inset-0 bg-black/40" />
       
       <div className="relative w-full max-w-md animate-fade-in-up">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 text-white drop-shadow-lg">
