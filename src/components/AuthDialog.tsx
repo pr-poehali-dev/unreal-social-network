@@ -24,7 +24,7 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
       <div className="relative w-full max-w-md animate-fade-in-up">
         {!showRegisterForm ? (
           <>
-            <Card className="bg-[#2a2d35]/70 backdrop-blur-md border-none shadow-2xl">
+            <Card className="bg-[#2a2d35]/45 backdrop-blur-md border-none shadow-2xl">
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-center mb-6">
                   <img 
@@ -83,7 +83,7 @@ const AuthDialog = ({ onClose }: AuthDialogProps) => {
               </h1>
             </div>
             
-            <Card className="bg-[#2a2d35]/70 backdrop-blur-md border-none shadow-2xl">
+            <Card className="bg-[#2a2d35]/45 backdrop-blur-md border-none shadow-2xl">
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-center mb-4">
                   <img 
